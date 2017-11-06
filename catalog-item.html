@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+  <body>
+    <header class="psge-header">
+      <nav class="menu">
+        <a class="main-header-logo" href="index.html">
+		  <img class="logo" src="barbershop-logo.svg" alt="Логотип барбершопа «Бородинский»" width="200" height="100">
+		  </a>
+		<ul class="main-menu">
+		  <li><a href="info.html">Информация</a></li>
+		  <li><a href="news.html">Новости</a></li>
+		  <li><a href="price.html">Прайс-лист</a></li>
+		  <li class="main-menu-active"><a href="catalog.html">Магазин</a></li>
+		  <li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<ul class="user-menu">
+		  <li class="enter-icon"><a href="#">Вход</a></li>
+		</ul>
+	  </nav>
+    </header>
+    <main class="container">
+	  <h1>Набор для путешествий «Baxter of California»</h1>
+		<ul class="breadcrumbs">
+		  <li><a href="index.html">Главная</a></li>
+		  <li><a href="shop.html">Магазин</a></li>
+		  <li ><a href="catalog.html">Средства для ухода</a></li>
+		  <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
+		</ul>
+		<section class="product-gallery">
+		  <h2 class="hidden-title">Фото товара</h2>
+		  <p class="product-photo-main">
+		    <img src="img/product1-main.jpg" alt="Фото набора для путешествий «Baxter of California»" width="100" height="100">
+		  </p>
+		  <ul class="product-photo-preview">
+		    <li><a href="#"><img class="catalog-item-photo" src="img/product1-1.jpg" alt="Набор с чехлом" width="100" height="100"></a></li>
+		    <li><a href="#"><img class="catalog-item-photo" src="img/product1-2.jpg" alt="Набор в чехле" width="100" height="100"></a></li>
+		    <li><a href="#"><img class="catalog-item-photo" src="img/product1-3.jpg" alt="Общий вид набора" width="100" height="100"></a></li>
+		  </ul>
+		</section>
+		<section class="product-info">
+		  <h2 class="hidden-title">Описание товара набор для путешествий «Baxter of California»</h2>
+		  <p class="prodict-status">Есть в наличии</p>
+		  <p class="product-code">Артикул: dexter-ae</p>
+		  <p class="product-description">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+		  <p class="catalog-item-price">
+			  <b>2 900 <span class="ruble-icon"> </span></b>
+			  <a href="#" class="btn btn-buy">Купить</a>
+		  </p>
+			
+		</section>
+		
+    </main>
+    <footer class="page-footer">
+	  <section class="footer-contacts">
+		<p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+		  АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+		  <a href="contacts.html">Как нас найти?</a><br>
+		  ТЕЛЕФОН: +7 (495) 666-02-66</p>
+	  </section>
+	  <div class="footer-social">
+	    <p>Давайте дружить!</p>
+		<ul class="social-links">
+		  <li><a class="social-button" href="#">Вконтакте</a></li>
+		  <li><a class="social-button" href="#">Фейсбук</a></li>
+		  <li><a class="social-button" href="#">Инстаграм</a></li>
+		</ul>
+	  </div>
+	  <p class="copyright">Разработано: <a class="footer-logo-link" href="https://htmlacademy.ru/">HTML Academy</a></p>
+    </footer>
+	
+<!--Формы входа-->
+	<section class="modal modal-login">
+	  <h2>Личный кабинет</h2>
+	   <form method="post" action="https://echo.htmlacademy.ru/">
+	    <fieldset>
+		  <legend>Введите, пожалуйста, свой логин и пароль</legend>
+		  <input name="login" type="text" placeholder="Логин">
+		  <input name="password" type="password" placeholder="Пароль" >
+		  <input name="remember-user" type="checkbox" checked>
+		  <a class="modal-link" href="loshara.html">Я забыл пароль!</a>
+		  <button class="btn bnt-modal-login">Войти</button>
+		</fieldset>
+	   </form>
+	   <span class="modal-close"></span>
+	</section>
+<!--Карта-->
+	<section class="modal modal-map">
+	  <h2 class="hidden-title">Как нас найти?</h2>
+	  <iframe></iframe>
+	  <span class="modal-close"></span>
+	</section>
+  </body>
+</html>
